@@ -1,0 +1,89 @@
+body{
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#main{
+    width: 100%;
+    height: 0vh !important;
+    
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:#0004;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+}
+nav ul li:hover{
+    background-color:aliceblue;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 30px;
+}
+.footer{
+    font-family:sans-serif;
+    color:cornsilk;
+    background-color:#0009;
+    
+    background-size: cover;
+    height: 350px;
+    
+}
+.section{
+    margin-top: 0;
+}
+.mid{
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 50vh;
+    color: gray;
+}
+.intro{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 32;
+    text-align: center;
+    
+}
+.mid2{
+    font-family: fantasy;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+}
+.welcomee{
+    display: block;
+    background-color: #f7ced7ff;
+    height: 10vh;
+    width: 100%;
+    
+    
+}
+
+.newsletters{
+    display: block;
+    background-color: blanchedalmond;
+    color: crimson;
+    
+}
+ form .subsc{
+    background-color: darkorange;
+}

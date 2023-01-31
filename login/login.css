@@ -1,0 +1,118 @@
+body{
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#main{
+    width: 100%;
+    height: 9vh !important;
+    
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:#0006;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+}
+nav ul li:hover{
+    background-color:white;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 30px;
+}
+.full{
+    background-image: url("120332189.jpg");
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-size: cover;
+}
+.formx{
+    float: left;
+    text-align: center;
+    display: block;
+    
+    #background-image: url("120332189.jpg");
+    
+}
+.formy{
+    float:right;
+    text-align: center;
+    display: block;
+    
+    
+    background-size: cover;
+}
+.box{
+    padding: 100px;
+}
+.formx h1{
+    
+    color:white;
+    font-family: sans-serif;
+}
+.formx input[type=text]{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom-color: red;
+}
+.formy h1{
+    
+    color:white;
+    font-family: sans-serif;
+}
+.formy input[type=text]{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom-color: red;
+}
+
+.pass{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom-color: red;
+}
+.subx,.signup{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+}
+.subx input[type=text]:.focus{
+   width: 280px;
+	border-color: #2ecc71;
+}
+.formx form{
+    background-color: transparent;
+    
+}
+.footer{
+    font-family:sans-serif;
+    color:cornsilk;
+    background-color:#0009; 
+    background-size: cover;
+    height: 250px ;    
+}

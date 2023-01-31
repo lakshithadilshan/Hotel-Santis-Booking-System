@@ -1,0 +1,56 @@
+body{
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#main{
+    width: 100%;
+    height: 0vh !important;
+    
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:#0004;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+}
+nav ul li:hover{
+    background-color:aliceblue;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 30px;
+}
+.footer{
+    font-family:sans-serif;
+    color:cornsilk;
+    background-color:#0009;
+    margin-top: 80;
+    background-size: cover;
+    height: 350px;
+}
+.mid{
+    
+    background-color: antiquewhite;
+    display: block;
+    width: 100%;
+    height: 50vh;
+    color: black;
+    margin-top: 80;
+}
